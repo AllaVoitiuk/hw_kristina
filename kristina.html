@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<title>Document</title>
+<link rel="stylesheet" href="./css/styles.css">
+<head>
+    <meta keywords="">
+    <title>Drinks</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css">
+   
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <div class="logo_drink">
+                <img src="https://dcassetcdn.com/design_img/3494292/735651/735651_19506106_3494292_7df5cd7f_thumbnail.png">
+            </div>
+            <nav>
+                <div class="nav-item"><a href="#">Discounts</a></div>
+                <div class="nav-item"><a href="https://www.allrecipes.com/gallery/popular-cocktail-recipes/">Goods</a></div>
+                <div class="nav-item"><a href="./location.html">Address</a></div>
+                <div class="nav-item"><a href="#">Hotline</a></div>
+                <div class="nav-item"><a href="#">Actions</a></div>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <h1 class="hero-title title">Paradize found</h1>
+    </div>
+    <div class="drink">
+        <div class="drink-title">
+            <h2 class="drink-title_seconder">Drinks</h2>
+        </div>
+        <div class="drink-list">
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="./img/bubble-tea.jpg">
+                </div>
+                <div class="drink-name">
+                    <span>Bubble tea</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>tea, milk, water, sugar and tapioca pearls</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">50 UAH</div>
+                    <!-- <a href="#" class="drink-btn">Buy</a> -->
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                    
+                </div>
+            </div>
+
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="https://amandascookin.com/wp-content/uploads/2021/05/blue-lagoon-cocktail-V01-1100x1650.jpg">
+                </div>
+                <div class="drink-name">
+                    <span>Blue Lagoon</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>Blue Curacao syrup, Sprite, cherry, lemon juice, ice cubes</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">100 UAH</div>
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                </div>
+            </div>
+
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="https://www.shakedrinkrepeat.com/wp-content/uploads/2021/05/Pina-Colada-3-683x1024.jpg">
+                </div>
+                <div class="drink-name">
+                    <span>Pina Colada</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>pineapple juice, rum, and coconut</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">175 UAH</div>
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                </div>
+            </div>
+
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="https://i0.wp.com/talktalesentertainment.com/wp-content/uploads/2021/04/AdobeStock_199233140-scaled.jpeg?fit=683%2C1024&ssl=1">
+                </div>
+                <div class="drink-name">
+                    <span>Cosmopolitan</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>vodka, cranberry juice, lime juice</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">90 UAH</div>
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                </div>
+            </div>
+
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="https://ourlovelanguageisfood.com/wp-content/uploads/2022/04/mojito-mocktail-scaled.jpg">
+                </div>
+                <div class="drink-name">
+                    <span>Mojito</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>mint leaves, apple juice, lime juice, elderflower cordial and soda water</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">70 UAH</div>
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                </div>
+            </div>
+
+            <div class="drink-item">
+                <div class="drink-img">
+                    <img class="drink-foto"
+                        src="./img/margarita.jpg">
+                </div>
+                <div class="drink-name">
+                    <span>Margarita</span>
+                </div>
+                <div class="drink-ingridients">
+                    <p>tequila, Cointreau, and lime juice</p>
+                </div>
+                <div class="drink-action">
+                    <div class="price">110 UAH</div>
+                    <button type="button" class="button drink-btn" data-modal-open>
+                        Buy now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+                <button data-modal-close class="close-btn">
+                <svg class="modal-close icon">
+                    <use class="icon-network" href="./img/icons.svg#icon-close-black">
+                
+                    </use>
+                </svg>
+            </button>
+            <div class="content-card__modal">
+                <div class="content-card__img">
+                    <img src="./img/Drinks_Tropical_cocktails.jpg" width='240' height='357'
+                  alt="Drink" class='content-card__drink'>
+                  <form class="form">
+                   
+                    <label class="form-label">Назва 
+                        <input type="text" class="form-input" name="name" placeholder="Bubble tea" required />
+                        
+                    </label>
+                    <label for="quantity" class="form-label">Кількість
+                        <input type="number" class="form-input" name="quantity" min="1" max="30" placeholder=" max= 30 " required />
+                    </label>
+                    <label class="form-label area">
+                        Коментар
+                        <textarea class="form-feedback" name="feedback" rows="5" placeholder="Ваші уподобання"></textarea>              
+                </form>
+                </div>
+                <form class="form">
+                    <h2 class="form-title">ФОРМА ЗАМОВЛЕННЯ</h2>
+                    <label class="form-label">Ім'я
+                        <input type="text" class="form-input" name="name" placeholder="Тарас Шевченко" required />
+                        <span class="form-icon">
+                            <svg class="form-person icon">
+                                <use href="./img/icons.svg#icon-person-black-18dp-1">
+                                </use>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="form-label">Телефон
+                        <input type="tel" class="form-input" name="phone-number" placeholder="+38 066 1234567" required />
+                        <span class="form-icon">
+                            <svg class="form-person icon">
+                                <use href="./img/icons.svg#icon-phone-black-18dp-1">
+                    
+                                </use>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="form-label">Адреса доставки
+                        <input type="email" class="form-input" name="email" placeholder="вул. Гоголя, 78а, Кропивницький" required/>
+                        <span class="form-icon">
+                            <svg class="form-person icon">
+                                <use href="./img/icons.svg#icon-email-black-18dp-1">
+                    
+                                </use>
+                            </svg>
+                        </span>
+                    </label>
+                    <!-- <label class="form-label area">
+                        Коментар
+                        <textarea class="form-feedback" name="feedback" rows="5" placeholder="Ваші уподобання"></textarea>
+                    </label>   -->
+                    <label class="checkbox-field">
+                        <input type="checkbox" class="checkbox-consent" name="consent" /> 
+                        <svg class="checkbox-icon icon">
+                            <use href="./img/icons.svg#icon-icon-check">
+                            </use>
+                        </svg>
+                        <span class="checkbox-label">
+                            Погоджуюсь на обробку інформації
+                            <a class="checkbox-link" href="">Умови конфіденційності</a>
+                        </span>
+                        
+                    </label>
+                    <button type="submit" class="button submit">Замовити</button>
+                </form>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    
+    
+    <script src="./js/modal.js"></script>
+  
+
+    <!-- <div data-modal class="backdrop ">
+        <div class="modal">
+            <button data-modal-close class="modal__close" type="button">
+                <svg class="modal__close-icon" width="26" height="26">
+                    <use href="./images/sprite-filmoteka.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="modal__content content-card">
+                <div class="content-card__img">
+                    <img src="https://image.tmdb.org/t/p/w500/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg" width='240' height='357'
+                  alt="Movie" class='content-card__movie'>
+                </div>
+                <div class="content-card__info">
+                    <h3 class="content-card__title">Заголовок</h3>
+            <table class='modal__movie-info'>
+              <tr>
+                <th>Vote / Votes</th>
+                <td class='modal__movie-votes'><span class="modal__movie-bord">7.3</span> / <span class='modal__movie-number'>1260</span></td>
+              </tr>
+              <tr>
+                <th>Popularity</th>
+                <td class='modal__movie-popularity'>100.2</td>
+              </tr>
+              <tr>
+                <th>Original Title</th>
+                <td class='modal__movie-original'>A FISTFUL OF LEAD</td>
+              </tr>
+              <tr>
+                <th>Genre</th>
+                <td class='modal__movie-genres'>Western</td>
+              </tr>
+            </table>
+                    <b class="content-card__about">About</b>
+            <p class="content-card__about-text"></p>-->
+   <!--        todo убрать левые данные из хтмл модалки-->
+                  <!--   <ul class="content-card__btn-group">
+                        <li>
+                            <button class="content-card__btn watched-btn" type="button">add to Watched</button>
+                        </li>
+                        <li>
+                            <button class="content-card__btn queue-btn" type="button">add to queue</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script> -->
+
+    
+</body>
+
+</html>
